@@ -2,7 +2,7 @@
 @f = []
 def fib2(n)
   if n <= 1
-    return 1
+    return @f[n] = 1
   else
     if @f[n]
       return @f[n]
